@@ -1,5 +1,20 @@
 ![GoIndex](https://raw.githubusercontent.com/zixiwangluo/goindex/master/themes/logo.png)  
-  
+ ------------------------------
+2020.4.29更新说明
+1.请先fork本项目后，按下述操作进行更改，否则会出现目录空白等问题！
+
+2.自己的git-goindex - 发布release 版本号自定，可以为1.0.6可以为其他比如 15
+
+3.替换15行代码
+
+原来 //cdn.jsdelivr.net/combine/gh/jquery/jquery@3.2/dist/jquery.min.js,gh/donwa/goindex@${authConfig.version}/themes/${authConfig.theme}/app.js
+
+替换为
+
+//cdn.jsdelivr.net/combine/gh/jquery/jquery@3.2/dist/jquery.min.js,gh/自己git名/goindex@第二步发布的release的版本号/themes/${authConfig.theme}/app.js
+
+*注意仓库public.
+-------------------------------
 GoIndex  
 ====  
 Google Drive Directory Index  
